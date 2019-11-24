@@ -1,0 +1,297 @@
+\hypertarget{classRobotsimulator}{}\section{Robotsimulator Class Reference}
+\label{classRobotsimulator}\index{Robotsimulator@{Robotsimulator}}
+
+
+declaration of \hyperlink{classRobotsimulator}{Robotsimulator} class  
+
+
+
+
+{\ttfamily \#include $<$Robotsimulator.\+hpp$>$}
+
+
+
+Collaboration diagram for Robotsimulator\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{classRobotsimulator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classRobotsimulator_ab9d22fcac6da5b0c3806d015cdcd129d}{draw\+Outer\+Circle} (int centerx, int centery, int r)
+\begin{DoxyCompactList}\small\item\em method to draw outer circle of joint \end{DoxyCompactList}\item 
+static int \hyperlink{classRobotsimulator_a091403abfa76134b3135d98ea6fe24c4}{draw\+Inner\+Circle} (int centerx, int centery, int r)
+\begin{DoxyCompactList}\small\item\em method to draw inner circle of joint \end{DoxyCompactList}\item 
+static int \hyperlink{classRobotsimulator_a14ea782deab112fa6d3fc864a8aca2e8}{draw\+Joint} (int centerx, int centery)
+\begin{DoxyCompactList}\small\item\em method to draw the joint using outercircle and innercircle methods \end{DoxyCompactList}\item 
+static int \hyperlink{classRobotsimulator_a7b8564dcb925538dd55ec7d291d138dd}{draw\+Link\+Btn\+Joints} (float cx1, float cy1, float cx2, float cy2)
+\begin{DoxyCompactList}\small\item\em method to draw link between joints \end{DoxyCompactList}\item 
+static int {\bfseries draw\+End\+Effector} (float centerx, float centery)\hypertarget{classRobotsimulator_aabbda363024a68c3dc2050c20214a098}{}\label{classRobotsimulator_aabbda363024a68c3dc2050c20214a098}
+
+\item 
+static void \hyperlink{classRobotsimulator_a94348f09e5ce52444d4f0f526e723bc5}{display\+Arm} (void)
+\begin{DoxyCompactList}\small\item\em method to display robot arm \end{DoxyCompactList}\item 
+static void \hyperlink{classRobotsimulator_a24d1290882d5bac99e860fcf822fdc44}{reshape} (int w, int h)
+\begin{DoxyCompactList}\small\item\em method to reshape the arm \end{DoxyCompactList}\item 
+static void \hyperlink{classRobotsimulator_a9b1a52a2863af168184ab996858a764c}{display} (void)
+\begin{DoxyCompactList}\small\item\em method to display all components for simulation \end{DoxyCompactList}\item 
+static int \hyperlink{classRobotsimulator_aef4f47da29aede919802a5cc6e67fadb}{draw\+Path\+Circle} (void)
+\begin{DoxyCompactList}\small\item\em method to draw Circular path taken by robot \end{DoxyCompactList}\item 
+static int \hyperlink{classRobotsimulator_ab3f7118a0c8ee44dfc0e4d672e017b79}{draw\+Target} (float x, float y)
+\begin{DoxyCompactList}\small\item\em method to draw Target point \end{DoxyCompactList}\item 
+static void \hyperlink{classRobotsimulator_a96d2a360625f5b96b08ca0f8031c99f9}{run\+Simulation} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em method to display all components for simulation \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classRobot}{Robot} \hyperlink{classRobotsimulator_a7cc3a089ea219493264683338dd96b9d}{robot}\hypertarget{classRobotsimulator_a7cc3a089ea219493264683338dd96b9d}{}\label{classRobotsimulator_a7cc3a089ea219493264683338dd96b9d}
+
+\begin{DoxyCompactList}\small\item\em static objects of \hyperlink{classRobot}{Robot} and \hyperlink{classPathplanning}{Pathplanning} class \end{DoxyCompactList}\item 
+static \hyperlink{classPathplanning}{Pathplanning} {\bfseries plan\+Path}\hypertarget{classRobotsimulator_aa2a8d3f1b8c4bfbc4999bc4ebde3924a}{}\label{classRobotsimulator_aa2a8d3f1b8c4bfbc4999bc4ebde3924a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+declaration of \hyperlink{classRobotsimulator}{Robotsimulator} class 
+
+\subsection{Member Function Documentation}
+\index{Robotsimulator@{Robotsimulator}!display@{display}}
+\index{display@{display}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{display(void)}{display(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robotsimulator\+::display (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_a9b1a52a2863af168184ab996858a764c}{}\label{classRobotsimulator_a9b1a52a2863af168184ab996858a764c}
+
+
+method to display all components for simulation 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void -\/ displays components 
+\end{DoxyReturn}
+Method to set white background
+
+display string \index{Robotsimulator@{Robotsimulator}!display\+Arm@{display\+Arm}}
+\index{display\+Arm@{display\+Arm}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{display\+Arm(void)}{displayArm(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robotsimulator\+::display\+Arm (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_a94348f09e5ce52444d4f0f526e723bc5}{}\label{classRobotsimulator_a94348f09e5ce52444d4f0f526e723bc5}
+
+
+method to display robot arm 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+update robots end\+Effector coordinates \index{Robotsimulator@{Robotsimulator}!draw\+Inner\+Circle@{draw\+Inner\+Circle}}
+\index{draw\+Inner\+Circle@{draw\+Inner\+Circle}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{draw\+Inner\+Circle(int centerx, int centery, int r)}{drawInnerCircle(int centerx, int centery, int r)}}]{\setlength{\rightskip}{0pt plus 5cm}int Robotsimulator\+::draw\+Inner\+Circle (
+\begin{DoxyParamCaption}
+\item[{int}]{centerx, }
+\item[{int}]{centery, }
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_a091403abfa76134b3135d98ea6fe24c4}{}\label{classRobotsimulator_a091403abfa76134b3135d98ea6fe24c4}
+
+
+method to draw inner circle of joint 
+
+
+\begin{DoxyParams}{Parameters}
+{\em centerx} & -\/ x Coordinate of Joint\\
+\hline
+{\em centery} & -\/ y Coordinate of Joint\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int -\/ for testing purposes 
+\end{DoxyReturn}
+black foreground \index{Robotsimulator@{Robotsimulator}!draw\+Joint@{draw\+Joint}}
+\index{draw\+Joint@{draw\+Joint}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{draw\+Joint(int centerx, int centery)}{drawJoint(int centerx, int centery)}}]{\setlength{\rightskip}{0pt plus 5cm}int Robotsimulator\+::draw\+Joint (
+\begin{DoxyParamCaption}
+\item[{int}]{centerx, }
+\item[{int}]{centery}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_a14ea782deab112fa6d3fc864a8aca2e8}{}\label{classRobotsimulator_a14ea782deab112fa6d3fc864a8aca2e8}
+
+
+method to draw the joint using outercircle and innercircle methods 
+
+
+\begin{DoxyParams}{Parameters}
+{\em centerx} & -\/ x Coordinate of Joint\\
+\hline
+{\em centery} & -\/ y Coordinate of Joint\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 1 to indicate success 
+\end{DoxyReturn}
+\index{Robotsimulator@{Robotsimulator}!draw\+Link\+Btn\+Joints@{draw\+Link\+Btn\+Joints}}
+\index{draw\+Link\+Btn\+Joints@{draw\+Link\+Btn\+Joints}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{draw\+Link\+Btn\+Joints(float cx1, float cy1, float cx2, float cy2)}{drawLinkBtnJoints(float cx1, float cy1, float cx2, float cy2)}}]{\setlength{\rightskip}{0pt plus 5cm}int Robotsimulator\+::draw\+Link\+Btn\+Joints (
+\begin{DoxyParamCaption}
+\item[{float}]{cx1, }
+\item[{float}]{cy1, }
+\item[{float}]{cx2, }
+\item[{float}]{cy2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_a7b8564dcb925538dd55ec7d291d138dd}{}\label{classRobotsimulator_a7b8564dcb925538dd55ec7d291d138dd}
+
+
+method to draw link between joints 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cx1} & -\/ X coordinate of Joint1\\
+\hline
+{\em cy1} & -\/ Y coordinate of Joint1\\
+\hline
+{\em cx2} & -\/ X coordinate of Joint2\\
+\hline
+{\em cy2} & -\/ Y coordinate of joint2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int -\/ returns 1 to indicate success 
+\end{DoxyReturn}
+\index{Robotsimulator@{Robotsimulator}!draw\+Outer\+Circle@{draw\+Outer\+Circle}}
+\index{draw\+Outer\+Circle@{draw\+Outer\+Circle}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{draw\+Outer\+Circle(int centerx, int centery, int r)}{drawOuterCircle(int centerx, int centery, int r)}}]{\setlength{\rightskip}{0pt plus 5cm}int Robotsimulator\+::draw\+Outer\+Circle (
+\begin{DoxyParamCaption}
+\item[{int}]{centerx, }
+\item[{int}]{centery, }
+\item[{int}]{r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_ab9d22fcac6da5b0c3806d015cdcd129d}{}\label{classRobotsimulator_ab9d22fcac6da5b0c3806d015cdcd129d}
+
+
+method to draw outer circle of joint 
+
+
+\begin{DoxyParams}{Parameters}
+{\em centerx} & -\/ x Coordinate of Joint\\
+\hline
+{\em centery} & -\/ y Coordinate of Joint\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int -\/ for testing purposes 
+\end{DoxyReturn}
+black foreground \index{Robotsimulator@{Robotsimulator}!draw\+Path\+Circle@{draw\+Path\+Circle}}
+\index{draw\+Path\+Circle@{draw\+Path\+Circle}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{draw\+Path\+Circle(void)}{drawPathCircle(void)}}]{\setlength{\rightskip}{0pt plus 5cm}int Robotsimulator\+::draw\+Path\+Circle (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_aef4f47da29aede919802a5cc6e67fadb}{}\label{classRobotsimulator_aef4f47da29aede919802a5cc6e67fadb}
+
+
+method to draw Circular path taken by robot 
+
+\begin{DoxyReturn}{Returns}
+returns 1 to indicate success 
+\end{DoxyReturn}
+black foreground \index{Robotsimulator@{Robotsimulator}!draw\+Target@{draw\+Target}}
+\index{draw\+Target@{draw\+Target}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{draw\+Target(float x, float y)}{drawTarget(float x, float y)}}]{\setlength{\rightskip}{0pt plus 5cm}int Robotsimulator\+::draw\+Target (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_ab3f7118a0c8ee44dfc0e4d672e017b79}{}\label{classRobotsimulator_ab3f7118a0c8ee44dfc0e4d672e017b79}
+
+
+method to draw Target point 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ X coordinate of target point\\
+\hline
+{\em y} & -\/ Y coordinate of target point\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 1 to indicate success 
+\end{DoxyReturn}
+\index{Robotsimulator@{Robotsimulator}!reshape@{reshape}}
+\index{reshape@{reshape}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{reshape(int w, int h)}{reshape(int w, int h)}}]{\setlength{\rightskip}{0pt plus 5cm}void Robotsimulator\+::reshape (
+\begin{DoxyParamCaption}
+\item[{int}]{w, }
+\item[{int}]{h}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_a24d1290882d5bac99e860fcf822fdc44}{}\label{classRobotsimulator_a24d1290882d5bac99e860fcf822fdc44}
+
+
+method to reshape the arm 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+Axis of window x axis from -\/50 to 50 y axis from -\/50 to 50 \index{Robotsimulator@{Robotsimulator}!run\+Simulation@{run\+Simulation}}
+\index{run\+Simulation@{run\+Simulation}!Robotsimulator@{Robotsimulator}}
+\subsubsection[{\texorpdfstring{run\+Simulation(int argc, char $\ast$argv[])}{runSimulation(int argc, char *argv[])}}]{\setlength{\rightskip}{0pt plus 5cm}void Robotsimulator\+::run\+Simulation (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classRobotsimulator_a96d2a360625f5b96b08ca0f8031c99f9}{}\label{classRobotsimulator_a96d2a360625f5b96b08ca0f8031c99f9}
+
+
+method to display all components for simulation 
+
+method to start simulation
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void -\/ displays components
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em command} & line arguments(\+Not used but needed for opengl library)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void -\/ displays arm 
+\end{DoxyReturn}
+\hyperlink{classRobot}{Robot} functionalities to test
+
+initialize window
+
+callback functions calls the display function
+
+calls the reshape function
+
+calls timer function
+
+Events are looped continuously 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/include/\hyperlink{Robotsimulator_8hpp}{Robotsimulator.\+hpp}\item 
+/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/app/\hyperlink{Robotsimulator_8cpp}{Robotsimulator.\+cpp}\end{DoxyCompactItemize}

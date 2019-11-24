@@ -1,0 +1,122 @@
+\hypertarget{classPathplanning}{}\section{Pathplanning Class Reference}
+\label{classPathplanning}\index{Pathplanning@{Pathplanning}}
+
+
+declaration of \hyperlink{classPathplanning}{Pathplanning} class  
+
+
+
+
+{\ttfamily \#include $<$Pathplanning.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Eigen\+::\+Vector2d \hyperlink{classPathplanning_a4dda17a17352ad007d649da7264f551a}{Angles\+For\+Linear\+Path} (Eigen\+::\+Vector2d angles, Eigen\+::\+Vector2d path)
+\begin{DoxyCompactList}\small\item\em method to calculate joint angle velocities \end{DoxyCompactList}\item 
+Eigen\+::\+Vector2d \hyperlink{classPathplanning_a8c86c4fafd6a1857cb1a4828b2b8b10d}{Angles\+For\+Circular\+Path} (Eigen\+::\+Vector2d angles)
+\begin{DoxyCompactList}\small\item\em method to calculate joint angle velocities for circular path \end{DoxyCompactList}\item 
+Eigen\+::\+Vector2d \hyperlink{classPathplanning_a2f3fedddf2b7fb4a0a609b623c57e38a}{Angles\+For\+Continuous\+Path} (Eigen\+::\+Vector2d angles)
+\begin{DoxyCompactList}\small\item\em method to calculate joint angle velocities for continuous path \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+declaration of \hyperlink{classPathplanning}{Pathplanning} class 
+
+\subsection{Member Function Documentation}
+\index{Pathplanning@{Pathplanning}!Angles\+For\+Circular\+Path@{Angles\+For\+Circular\+Path}}
+\index{Angles\+For\+Circular\+Path@{Angles\+For\+Circular\+Path}!Pathplanning@{Pathplanning}}
+\subsubsection[{\texorpdfstring{Angles\+For\+Circular\+Path(\+Eigen\+::\+Vector2d angles)}{AnglesForCircularPath(Eigen::Vector2d angles)}}]{\setlength{\rightskip}{0pt plus 5cm}Eigen\+::\+Vector2d Pathplanning\+::\+Angles\+For\+Circular\+Path (
+\begin{DoxyParamCaption}
+\item[{Eigen\+::\+Vector2d}]{angles}
+\end{DoxyParamCaption}
+)}\hypertarget{classPathplanning_a8c86c4fafd6a1857cb1a4828b2b8b10d}{}\label{classPathplanning_a8c86c4fafd6a1857cb1a4828b2b8b10d}
+
+
+method to calculate joint angle velocities for circular path 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angles} & 2x1 vector containing linear and angular velocity\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void-\/ modified angle is incrememented by joint velocities(step size)
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em angles} & 2x1 vector containing linear and angular velocity\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void-\/ modified angle is incremented by joint velocities(step size) 
+\end{DoxyReturn}
+\index{Pathplanning@{Pathplanning}!Angles\+For\+Continuous\+Path@{Angles\+For\+Continuous\+Path}}
+\index{Angles\+For\+Continuous\+Path@{Angles\+For\+Continuous\+Path}!Pathplanning@{Pathplanning}}
+\subsubsection[{\texorpdfstring{Angles\+For\+Continuous\+Path(\+Eigen\+::\+Vector2d angles)}{AnglesForContinuousPath(Eigen::Vector2d angles)}}]{\setlength{\rightskip}{0pt plus 5cm}Eigen\+::\+Vector2d Pathplanning\+::\+Angles\+For\+Continuous\+Path (
+\begin{DoxyParamCaption}
+\item[{Eigen\+::\+Vector2d}]{angles}
+\end{DoxyParamCaption}
+)}\hypertarget{classPathplanning_a2f3fedddf2b7fb4a0a609b623c57e38a}{}\label{classPathplanning_a2f3fedddf2b7fb4a0a609b623c57e38a}
+
+
+method to calculate joint angle velocities for continuous path 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angles} & 2x1 vector containing linear and angular velocity\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void-\/ modified angle is incrememented by joint velocities(step size)
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em angles} & 2x1 vector containing linear and angular velocity\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void-\/ modified angle is incremented by joint velocities(step size) 
+\end{DoxyReturn}
+\index{Pathplanning@{Pathplanning}!Angles\+For\+Linear\+Path@{Angles\+For\+Linear\+Path}}
+\index{Angles\+For\+Linear\+Path@{Angles\+For\+Linear\+Path}!Pathplanning@{Pathplanning}}
+\subsubsection[{\texorpdfstring{Angles\+For\+Linear\+Path(\+Eigen\+::\+Vector2d angles, Eigen\+::\+Vector2d path)}{AnglesForLinearPath(Eigen::Vector2d angles, Eigen::Vector2d path)}}]{\setlength{\rightskip}{0pt plus 5cm}Eigen\+::\+Vector2d Pathplanning\+::\+Angles\+For\+Linear\+Path (
+\begin{DoxyParamCaption}
+\item[{Eigen\+::\+Vector2d}]{angles, }
+\item[{Eigen\+::\+Vector2d}]{path}
+\end{DoxyParamCaption}
+)}\hypertarget{classPathplanning_a4dda17a17352ad007d649da7264f551a}{}\label{classPathplanning_a4dda17a17352ad007d649da7264f551a}
+
+
+method to calculate joint angle velocities 
+
+
+\begin{DoxyParams}{Parameters}
+{\em jacobian\+Inv} & a 2x2 matrix used in calculating joint velocities\\
+\hline
+{\em angles} & 2x1 vector containing linear and angular velocity\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void-\/ modified angle is incrememented by joint velocities(step size)
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em jacobian\+Inv} & a 2x2 matrix used in calculating joint velocities\\
+\hline
+{\em angles} & 2x1 vector containing linear and angular velocity\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void-\/ modified angle is incremented by joint velocities(step size) 
+\end{DoxyReturn}
+convert angles to radians
+
+Initializing Link lengths
+
+Calculating Inverse Jacobian Coordinates 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/include/\hyperlink{Pathplanning_8hpp}{Pathplanning.\+hpp}\item 
+/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/app/\hyperlink{Pathplanning_8cpp}{Pathplanning.\+cpp}\end{DoxyCompactItemize}

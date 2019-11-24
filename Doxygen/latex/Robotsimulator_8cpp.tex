@@ -1,0 +1,88 @@
+\hypertarget{Robotsimulator_8cpp}{}\section{/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/app/\+Robotsimulator.cpp File Reference}
+\label{Robotsimulator_8cpp}\index{/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/app/\+Robotsimulator.\+cpp@{/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/app/\+Robotsimulator.\+cpp}}
+
+
+cpp program for definition and implementation of the methods of \hyperlink{classRobotsimulator}{Robotsimulator} class  
+
+
+{\ttfamily \#include \char`\"{}Robotsimulator.\+hpp\char`\"{}}\\*
+Include dependency graph for Robotsimulator.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Robotsimulator_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Eigen\+::\+Vector2f {\bfseries joint1} (0, 0)\hypertarget{Robotsimulator_8cpp_ae97978fcc262bd4f84ae1176ccaea736}{}\label{Robotsimulator_8cpp_ae97978fcc262bd4f84ae1176ccaea736}
+
+\item 
+Eigen\+::\+Vector2f {\bfseries joint2} (20, 0)\hypertarget{Robotsimulator_8cpp_a9b885fdd3c55a5cf19777110175986af}{}\label{Robotsimulator_8cpp_a9b885fdd3c55a5cf19777110175986af}
+
+\item 
+Eigen\+::\+Vector2f {\bfseries end\+Effector} (40, 0)\hypertarget{Robotsimulator_8cpp_a34ee21b9d16dca3cb755749f05e444fd}{}\label{Robotsimulator_8cpp_a34ee21b9d16dca3cb755749f05e444fd}
+
+\item 
+Eigen\+::\+Vector2d {\bfseries path} (1,-\/1)\hypertarget{Robotsimulator_8cpp_af327f93222ca6bc0e610c15cc3eef7d9}{}\label{Robotsimulator_8cpp_af327f93222ca6bc0e610c15cc3eef7d9}
+
+\item 
+Eigen\+::\+Vector2d {\bfseries angles} (1, 1)\hypertarget{Robotsimulator_8cpp_a7af6d0c01fe04fe335c000242eab3cba}{}\label{Robotsimulator_8cpp_a7af6d0c01fe04fe335c000242eab3cba}
+
+\item 
+void \hyperlink{Robotsimulator_8cpp_a60ebef228b6633754a3122edd12a5473}{timer} (int)
+\begin{DoxyCompactList}\small\item\em method times the display \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+Eigen\+::\+Vector2f {\bfseries end\+Effector\+Copy} = end\+Effector\hypertarget{Robotsimulator_8cpp_a76b40015715e78eb1c6486d9ec73a40b}{}\label{Robotsimulator_8cpp_a76b40015715e78eb1c6486d9ec73a40b}
+
+\item 
+float {\bfseries targetX}\hypertarget{Robotsimulator_8cpp_a5516cb7e2fddc92ffa1e3668e4250079}{}\label{Robotsimulator_8cpp_a5516cb7e2fddc92ffa1e3668e4250079}
+
+\item 
+float {\bfseries targetY}\hypertarget{Robotsimulator_8cpp_a0dbd9a3242235c41e946bd75fda94572}{}\label{Robotsimulator_8cpp_a0dbd9a3242235c41e946bd75fda94572}
+
+\item 
+int {\bfseries display\+Type}\hypertarget{Robotsimulator_8cpp_aafe478357364a961cc3cddf85a8f626e}{}\label{Robotsimulator_8cpp_aafe478357364a961cc3cddf85a8f626e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+cpp program for definition and implementation of the methods of \hyperlink{classRobotsimulator}{Robotsimulator} class 
+
+\begin{DoxyAuthor}{Author}
+Akwasi A Obeng(\+Driver) Eashwar Sathyamurthy(\+Navigator)
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2019-\/10-\/12
+\end{DoxyDate}
+This program implements the methods of the \hyperlink{classRobotsimulator}{Robotsimulator} class from \hyperlink{Robotsimulator_8hpp}{Robotsimulator.\+hpp} header file 
+
+\subsection{Function Documentation}
+\index{Robotsimulator.\+cpp@{Robotsimulator.\+cpp}!timer@{timer}}
+\index{timer@{timer}!Robotsimulator.\+cpp@{Robotsimulator.\+cpp}}
+\subsubsection[{\texorpdfstring{timer(int)}{timer(int)}}]{\setlength{\rightskip}{0pt plus 5cm}void timer (
+\begin{DoxyParamCaption}
+\item[{int}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{Robotsimulator_8cpp_a60ebef228b6633754a3122edd12a5473}{}\label{Robotsimulator_8cpp_a60ebef228b6633754a3122edd12a5473}
+
+
+method times the display 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Referesh} & rate for display\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+displays 60frames in 1000 milliseconds 

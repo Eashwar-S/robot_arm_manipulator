@@ -1,0 +1,124 @@
+\hypertarget{classRobot}{}\section{Robot Class Reference}
+\label{classRobot}\index{Robot@{Robot}}
+
+
+declaration of \hyperlink{classRobot}{Robot} class  
+
+
+
+
+{\ttfamily \#include $<$Robot.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRobot_a4ee3c5a05985c8fb238601cd8695988a}{Robot} (Eigen\+::\+Vector2f joint1, Eigen\+::\+Vector2f joint2, Eigen\+::\+Vector2f end\+Effector)
+\begin{DoxyCompactList}\small\item\em constructor to set initial values \end{DoxyCompactList}\item 
+bool \hyperlink{classRobot_a0badd8b7e52b51ce0eb0a97fb29fb9fe}{is\+In\+Workspace} (double x, double y)
+\begin{DoxyCompactList}\small\item\em method to check the target position is within workspace or not \end{DoxyCompactList}\item 
+bool \hyperlink{classRobot_a709bc25a38791ac5918b3c969af241fd}{target\+Reached} (double x, double y)
+\begin{DoxyCompactList}\small\item\em method to check whether robot has reached target \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+declaration of \hyperlink{classRobot}{Robot} class 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Robot@{Robot}!Robot@{Robot}}
+\index{Robot@{Robot}!Robot@{Robot}}
+\subsubsection[{\texorpdfstring{Robot(\+Eigen\+::\+Vector2f joint1, Eigen\+::\+Vector2f joint2, Eigen\+::\+Vector2f end\+Effector)}{Robot(Eigen::Vector2f joint1, Eigen::Vector2f joint2, Eigen::Vector2f endEffector)}}]{\setlength{\rightskip}{0pt plus 5cm}Robot\+::\+Robot (
+\begin{DoxyParamCaption}
+\item[{Eigen\+::\+Vector2f}]{j1, }
+\item[{Eigen\+::\+Vector2f}]{j2, }
+\item[{Eigen\+::\+Vector2f}]{e\+Effector}
+\end{DoxyParamCaption}
+)}\hypertarget{classRobot_a4ee3c5a05985c8fb238601cd8695988a}{}\label{classRobot_a4ee3c5a05985c8fb238601cd8695988a}
+
+
+constructor to set initial values 
+
+
+\begin{DoxyParams}{Parameters}
+{\em length1} & variable for initializing the member link\+Length1\\
+\hline
+{\em length2} & variable for initializing the member link\+Length2\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em j1} & is a 2d float vector for initializing joint1\\
+\hline
+{\em j2} & is a 2d float vector for initializing joint2\\
+\hline
+{\em e\+Effector} & is a 2d float vector for initializing end\+Effector vector\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+none 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\index{Robot@{Robot}!is\+In\+Workspace@{is\+In\+Workspace}}
+\index{is\+In\+Workspace@{is\+In\+Workspace}!Robot@{Robot}}
+\subsubsection[{\texorpdfstring{is\+In\+Workspace(double x, double y)}{isInWorkspace(double x, double y)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Robot\+::is\+In\+Workspace (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{classRobot_a0badd8b7e52b51ce0eb0a97fb29fb9fe}{}\label{classRobot_a0badd8b7e52b51ce0eb0a97fb29fb9fe}
+
+
+method to check the target position is within workspace or not 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & variable represents x-\/coordinate of target position\\
+\hline
+{\em y} & variable represents y-\/coordinate of target position\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean -\/ true for inside and false for outside the workspace 
+\end{DoxyReturn}
+Assumes that for the robot, link length 1 $>$= link length2 \index{Robot@{Robot}!target\+Reached@{target\+Reached}}
+\index{target\+Reached@{target\+Reached}!Robot@{Robot}}
+\subsubsection[{\texorpdfstring{target\+Reached(double x, double y)}{targetReached(double x, double y)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Robot\+::target\+Reached (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)}\hypertarget{classRobot_a709bc25a38791ac5918b3c969af241fd}{}\label{classRobot_a709bc25a38791ac5918b3c969af241fd}
+
+
+method to check whether robot has reached target 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & variable represents x-\/coordinate of target position\\
+\hline
+{\em y} & variable represents y-\/coordinate of target position\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean -\/ true if target is reached and false otherwise
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em x} & variable represents x-\/coordinate of target position\\
+\hline
+{\em y} & variable represents y-\/coordinate of target position\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean -\/ true for inside and false if target is reached 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/include/\hyperlink{Robot_8hpp}{Robot.\+hpp}\item 
+/home/eashwar/\+Desktop/\+E\+N\+P\+M808\+X\+\_\+\+M\+I\+D\+T\+E\+R\+M/app/\hyperlink{Robot_8cpp}{Robot.\+cpp}\end{DoxyCompactItemize}
