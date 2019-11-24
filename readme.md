@@ -1,6 +1,6 @@
 # Robot Arm Manipulator Path Planner
-[![Build Status](https://travis-ci.org/mesneym/ENPM808X_MIDTERM.svg?branch=master)](https://travis-ci.org/mesneym/ENPM808X_MIDTERM)
-[![Coverage Status](https://coveralls.io/repos/github/mesneym/ENPM808X_MIDTERM/badge.svg?branch=master)](https://coveralls.io/github/mesneym/ENPM808X_MIDTERM?branch=master)
+[![Build Status](https://travis-ci.org//Eashwar-S/robot_arm_manipulator.svg?branch=master)](https://travis-ci.org//Eashwar-S/robot_arm_manipulator)
+[![Coverage Status](https://coveralls.io/repos/github//Eashwar-S/robot_arm_manipulator/badge.svg?branch=master)](https://coveralls.io/github//Eashwar-S/robot_arm_manipulator?branch=master)
 
 ## Overview
 In recent times, significant developments have been made to robotic arm manipulators. But, most of them have
