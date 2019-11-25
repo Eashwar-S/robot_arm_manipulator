@@ -51,7 +51,6 @@
  */
 Pathplanning plan;
 TEST(Pathplanning, AnglesForLinearPathMethodTesting) {
-
   Eigen::Vector2d angles;
   angles(0) = 0;
   angles(1) = 0;

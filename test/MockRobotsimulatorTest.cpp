@@ -47,12 +47,10 @@ using ::testing::AtLeast;
 
 class MockPathplanningTest : public ::testing::Test {
  public:
-
   Eigen::Vector2d angle { 3, 4 };
   Eigen::Vector2d path { 0, 0 };
   Eigen::Vector2d angle1;
 };
-
 /**
  *@brief Unit Test for testing AnglesForLinearPath method
  *
@@ -64,7 +62,7 @@ TEST(MockPathplanningTest, TestingAnglesForLinearPathMethod) {
   Pathplanning path;
   std::unique_ptr<PathplanningMock> plan(new PathplanningMock);
   std::unique_ptr<MockPathplanningTest> mock;
-  EXPECT_CALL(*plan, AnglesForLinearPath(mock->angle,mock->path)).Times(1);
+  EXPECT_CALL(*plan, AnglesForLinearPath(mock->angle, mock->path)).Times(1);
   Eigen::Vector2d angle { 0, 0 };
   EXPECT_EQ(path.AnglesForLinearPath(mock->angle, mock->path), angle);
 }
@@ -80,7 +78,7 @@ TEST(MockPathplanningTest, TestingAnglesForCircularPathMethod) {
   Pathplanning path;
   std::unique_ptr<PathplanningMock> plan(new PathplanningMock);
   std::unique_ptr<MockPathplanningTest> mock;
-  EXPECT_CALL(*plan, AnglesForCircularPath(mock->angle,mock->path)).Times(1);
+  EXPECT_CALL(*plan, AnglesForCircularPath(mock->angle, mock->path)).Times(1);
   Eigen::Vector2d angle { 4, 4 };
   EXPECT_EQ(path.AnglesForCircularPath(mock->angle, mock->path), angle);
 }
@@ -96,7 +94,7 @@ TEST(MockPathplanningTest, TestingAnglesForContinuousPathMethod) {
   Pathplanning path;
   std::unique_ptr<PathplanningMock> plan(new PathplanningMock);
   std::unique_ptr<MockPathplanningTest> mock;
-  EXPECT_CALL(*plan, AnglesForContinuousPath(mock->angle,mock->path)).Times(1);
+  EXPECT_CALL(*plan, AnglesForContinuousPath(mock->angle, mock->path)).Times(1);
   Eigen::Vector2d angle { 4, 5 };
   EXPECT_EQ(path.AnglesForContinuousPath(mock->angle, mock->path), angle);
 }

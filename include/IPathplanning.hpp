@@ -61,7 +61,7 @@ class IPathplanning {
    *   @return void
    */
 
-  IPathplanning( );
+  IPathplanning();
 
   /**
    *   @brief  Destructor for Pathplanning class

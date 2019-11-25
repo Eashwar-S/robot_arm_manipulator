@@ -41,9 +41,9 @@
 #define INCLUDE_ROBOTSIMULATOR_HPP_
 
 #include <GL/glut.h>
-#include <IPathplanning.hpp>
 #include <vector>
 #include <memory>
+#include <IPathplanning.hpp>
 #include "Pathplanning.hpp"
 #include "Robot.hpp"
 

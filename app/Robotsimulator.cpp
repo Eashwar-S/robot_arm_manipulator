@@ -235,33 +235,32 @@ void Robotsimulator::display(void) {
     if (robot.isInWorkspace(targetX, targetY)) {
       // printing appropriate message on window
       std::string str = "Not working properly. Opengl";
-	  str += " doesn't give the R coordinates";
+      str += " doesn't give the R coordinates";
 
       glColor3f(1, 0, 0);
       glRasterPos2f(-50, 10);  // position to display string
       int len = str.size();
       for (int i = 0; i < len; i++)
-	  glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str[i]);
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str[i]);
 
-      str="To Workaround that breaks         our code";
+      str = "To Workaround that breaks         our code";
 
       glColor3f(1, 0, 0);
       glRasterPos2f(-50, 0);  // position to display string
       len = str.size();
       for (int i = 0; i < len; i++)
-	  glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str[i]);
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str[i]);
 
-
-      str="Future implementations will rectify that";
+      str = "Future implementations will rectify that";
 
       glColor3f(1, 0, 0);
       glRasterPos2f(-50, -10);  // position to display string
       len = str.size();
       for (int i = 0; i < len; i++)
-	  glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str[i]);
+        glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, str[i]);
 
       drawTarget(targetX, targetY);
-	  drawPathCircle();
+      drawPathCircle();
       displayArm();
 
       if (robot.targetReached(targetX, targetY))
