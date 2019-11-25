@@ -41,9 +41,12 @@
 #define INCLUDE_ROBOTSIMULATOR_HPP_
 
 #include <GL/glut.h>
+#include <IPathplanning.hpp>
 #include <vector>
+#include <memory>
 #include "Pathplanning.hpp"
 #include "Robot.hpp"
+#include <PathplanningMock.hpp>
 
 #define PI 3.1415926
 
@@ -58,7 +61,9 @@ class Robotsimulator {
   /// static objects of Robot and Pathplanning class
   static Robot robot;
   static Pathplanning planPath;
-
+  PathplanningMock &pathMock_;
+  explicit Robotsimulator(PathplanningMock &path);
+  ~Robotsimulator();
   /**
    * @brief method to draw outer circle of joint
    *

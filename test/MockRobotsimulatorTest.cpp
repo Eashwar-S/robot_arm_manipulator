@@ -23,69 +23,40 @@
  ******************************************************************************/
 
 /**
- * @file PathplanningTest.cpp
+ * @file MockPathplanningTest.cpp
  *
  * @author Part1: Eashwar Sathyamurthy(Driver)  Akwasi A Obeng(Navigator)
  *
- * @brief test cases (Google Test framework) for Pathplanning class
+ * @brief test cases (Google Test framework) for Robotsimulator class
  *
  * @version 1
  *
  * @date 2019-10-12
  *
- * This .cpp file has test cases definitions for the class methods
- * of Pathplanning class
+ * This .cpp file mocks Pathplanning class methods to enable testing.
  *
  */
-
+#include <gmock/gmock.h>
 #include <gtest/gtest.h>
 #include <iostream>
-#include "Pathplanning.hpp"
+#include "Robotsimulator.hpp"
+#include <PathplanningMock.hpp>
 
-/**
- *@brief Unit Test for testing AnglesForLinearPath method
- *
- *This test checks if the return value of the method is same
- *the Eigen::Vector2d angles
- *
- */
-Pathplanning plan;
-TEST(Pathplanning, AnglesForLinearPathMethodTesting) {
+using ::testing::_;
+using ::testing::AtLeast;
 
-  Eigen::Vector2d angles;
-  angles(0) = 0;
-  angles(1) = 0;
-  Eigen::Vector2d path(0, 0);
-  Eigen::Vector2d angles1;
-  angles1(0) = 0;
-  angles1(1) = 0;
-  EXPECT_EQ(angles1, plan.AnglesForLinearPath(angles, path));
+class MockPathplanningTest : public ::testing::Test {
+ public:
+  PathplanningMock path;
+  Pathplanning path1;
+  Robotsimulator simulate = Robotsimulator(path);
+  Eigen::Vector2d angle{3,4};
+  Eigen::Vector2d angle1;
+};
+
+TEST_F(MockPathplanningTest, TestingAnglesForCircularPathMethod) {
+  EXPECT_CALL(path, AnglesForCircularPath(angle)).Times(AtLeast(1));
+  Eigen::Vector2d angle{4,4};
+
 }
 
-/**
- *@brief Unit Test for testing AnglesForContinuousPath method
- *
- *This test checks if the return value of the method is same
- *the Eigen::Vector2d angles
- *
- */
-
-TEST(Pathplanning, AnglesForContinuousPathMethodTesting) {
-  Eigen::Vector2d angles(1, 1);
-  Eigen::Vector2d angles1(2, 2);
-  EXPECT_EQ(angles1, plan.AnglesForContinuousPath(angles));
-}
-
-/**
- *@brief Unit Test for testing AnglesForCircularPath method
- *
- *This test checks if the return value of the method is same
- *the Eigen::Vector2d angles
- *
- */
-
-TEST(Pathplanning, AnglesForCircularPathMethodTesting) {
-  Eigen::Vector2d angles(1, 1);
-  Eigen::Vector2d angles1(2, 1);
-  EXPECT_EQ(angles1, plan.AnglesForCircularPath(angles));
-}

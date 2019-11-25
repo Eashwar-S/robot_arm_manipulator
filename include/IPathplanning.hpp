@@ -37,8 +37,8 @@
  * simple functionality of path planning of robot arm mainpulator.
  *
  */
-#ifndef INCLUDE_PATHPLANNING_HPP_
-#define INCLUDE_PATHPLANNING_HPP_
+#ifndef INCLUDE_IPATHPLANNING_HPP_
+#define INCLUDE_IPATHPLANNING_HPP_
 
 #include <Eigen/Dense>
 #include <iostream>
@@ -52,8 +52,24 @@
  *
  */
 
-class Pathplanning {
+class IPathplanning {
  public:
+  /**
+   *   @brief  Default constructor for Pathplanning class
+   *
+   *   @param  none
+   *   @return void
+   */
+
+  IPathplanning();
+
+  /**
+   *   @brief  Destructor for Pathplanning class
+   *
+   *   @param  none
+   *   @return void
+   */
+  virtual ~IPathplanning();
   /**
    * @brief method to calculate joint angle velocities
    *
@@ -65,7 +81,7 @@ class Pathplanning {
    *
    */
 
-  Eigen::Vector2d& AnglesForLinearPath(Eigen::Vector2d& angles,
+  virtual Eigen::Vector2d& AnglesForLinearPath(Eigen::Vector2d& angles,
                                       Eigen::Vector2d path);
 
   /**
@@ -77,7 +93,7 @@ class Pathplanning {
    *
    */
 
-  Eigen::Vector2d& AnglesForCircularPath(Eigen::Vector2d& angles);
+  virtual Eigen::Vector2d& AnglesForCircularPath(Eigen::Vector2d& angles);
 
   /**
    * @brief method to calculate joint angle velocities for continuous path
@@ -87,6 +103,6 @@ class Pathplanning {
    * @return void- modified angle is incremented by joint velocities(step size)
    *
    */
-  Eigen::Vector2d& AnglesForContinuousPath(Eigen::Vector2d& angles);
+  virtual Eigen::Vector2d& AnglesForContinuousPath(Eigen::Vector2d& angles);
 };
-#endif  // INCLUDE_PATHPLANNING_HPP_
+#endif  // INCLUDE_IPATHPLANNING_HPP_
