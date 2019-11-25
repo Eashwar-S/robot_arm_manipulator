@@ -25,16 +25,16 @@
 /**
  * @file Pathplanning.hpp
  *
- * @author Akwasi A Obeng(Driver)  Eashwar Sathyamurthy(Navigator)
+ * @author Eashwar Sathyamurthy
  *
- * @brief declaration for Pathplanning class
+ * @brief Interface declaration for Pathplanning class
  *
  * @version 1
  *
- * @date 2019-10-12
+ * @date 2019-11-25
  *
- * This .hpp file has declarations for the class attributes and methods for
- * simple functionality of path planning of robot arm mainpulator.
+ * This .hpp file has declarations for the class attributes and virtual methods to
+ * enable gmocking
  *
  */
 #ifndef INCLUDE_IPATHPLANNING_HPP_
@@ -61,7 +61,7 @@ class IPathplanning {
    *   @return void
    */
 
-  IPathplanning();
+  IPathplanning( );
 
   /**
    *   @brief  Destructor for Pathplanning class

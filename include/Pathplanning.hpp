@@ -66,7 +66,7 @@ class Pathplanning {
    */
 
   Eigen::Vector2d& AnglesForLinearPath(Eigen::Vector2d& angles,
-                                      Eigen::Vector2d path);
+                                       Eigen::Vector2d path);
 
   /**
    * @brief method to calculate joint angle velocities for circular path

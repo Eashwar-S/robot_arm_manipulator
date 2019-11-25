@@ -40,7 +40,7 @@
  */
 
 #include "Pathplanning.hpp"
-
+#include "IPathplanning.hpp"
 /**
  * @brief method to calculate joint angle velocities
  *

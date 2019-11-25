@@ -54,8 +54,6 @@ Pathplanning Robotsimulator::planPath;
 
 float targetX, targetY;
 int displayType;
-Robotsimulator::Robotsimulator(PathplanningMock &path) : pathMock_(path){}
-Robotsimulator::~Robotsimulator(){}
 /**
  * @brief method to draw outer circle of joint
  *
