@@ -43,7 +43,6 @@
 #include <GL/glut.h>
 #include <vector>
 #include <memory>
-#include <IPathplanning.hpp>
 #include "Pathplanning.hpp"
 #include "Robot.hpp"
 

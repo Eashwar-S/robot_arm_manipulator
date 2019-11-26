@@ -13,7 +13,8 @@ if (COVERAGE)
     setup_target_for_coverage(code_coverage test/cpp-test coverage)
     set(COVERAGE_SRCS app/main.cpp include/Pathplanning.hpp
                                    include/Robot.hpp
-                                   include/Robotsimulator.hpp)
+                                   include/Robotsimulator.hpp
+                                   include/PathplanningMock.hpp)
 
     SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
     SET(CMAKE_C_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
@@ -33,4 +34,4 @@ include_directories(
 
 add_subdirectory(app)
 add_subdirectory(test)
-add_subdirectory(vendor/googletest/googletest)
+add_subdirectory(vendor/googletest/googlemock)

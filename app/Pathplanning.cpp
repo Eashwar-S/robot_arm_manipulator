@@ -40,18 +40,8 @@
  */
 
 #include "Pathplanning.hpp"
-#include "IPathplanning.hpp"
-/**
- * @brief method to calculate joint angle velocities
- *
- * @param jacobianInv a 2x2 matrix used in calculating joint velocities
- *
- * @param angles 2x1 vector containing linear and angular velocity
- *
- * @return void- modified angle is incremented by joint velocities(step size)
- *
- */
 
+Pathplanning::Pathplanning(){}
 Eigen::Vector2d& Pathplanning::AnglesForLinearPath(Eigen::Vector2d& angles,
                                                    Eigen::Vector2d path) {
   Eigen::MatrixXd jacobianInv(2, 2);
@@ -102,3 +92,4 @@ Eigen::Vector2d& Pathplanning::AnglesForContinuousPath(
   angles[1] += 1;
   return angles;
 }
+Pathplanning::~Pathplanning(){}

@@ -39,10 +39,9 @@
 #define INCLUDE_PATHPLANNINGMOCK_HPP_
 
 #include <gmock/gmock.h>
-#include <gtest/gtest.h>
 #include <Eigen/Dense>
 #include <iostream>
-#include "IPathplanning.hpp"
+#include "Pathplanning.hpp"
 
 /**
  *
@@ -50,7 +49,7 @@
  *
  */
 
-class PathplanningMock : public IPathplanning {
+class PathplanningMock : public Pathplanning {
  public:
   /// Mocks AnglesForCircularPath methos in Pathplanning class
   MOCK_METHOD1(AnglesForCircularPath, Eigen::Vector2d&(Eigen::Vector2d&));

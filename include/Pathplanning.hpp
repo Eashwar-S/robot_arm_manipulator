@@ -55,6 +55,32 @@
 class Pathplanning {
  public:
   /**
+     *   @brief  Default constructor for Pathplanning class
+     *
+     *   @param  none
+     *   @return void
+     */
+
+    Pathplanning();
+
+    /**
+     *   @brief  Destructor for Pathplanning class
+     *
+     *   @param  none
+     *   @return void
+     */
+    virtual ~Pathplanning();
+  /**
+   * @brief method to calculate joint angle velocities
+   *
+   * @param jacobianInv a 2x2 matrix used in calculating joint velocities
+   *
+   * @param angles 2x1 vector containing linear and angular velocity
+   *
+   * @return void- modified angle is incremented by joint velocities(step size)
+   *
+   */
+  /**
    * @brief method to calculate joint angle velocities
    *
    * @param jacobianInv a 2x2 matrix used in calculating joint velocities
@@ -65,7 +91,7 @@ class Pathplanning {
    *
    */
 
-  Eigen::Vector2d& AnglesForLinearPath(Eigen::Vector2d& angles,
+  virtual Eigen::Vector2d& AnglesForLinearPath(Eigen::Vector2d& angles,
                                        Eigen::Vector2d path);
 
   /**
@@ -77,7 +103,7 @@ class Pathplanning {
    *
    */
 
-  Eigen::Vector2d& AnglesForCircularPath(Eigen::Vector2d& angles);
+  virtual Eigen::Vector2d& AnglesForCircularPath(Eigen::Vector2d& angles);
 
   /**
    * @brief method to calculate joint angle velocities for continuous path
@@ -87,6 +113,6 @@ class Pathplanning {
    * @return void- modified angle is incremented by joint velocities(step size)
    *
    */
-  Eigen::Vector2d& AnglesForContinuousPath(Eigen::Vector2d& angles);
+  virtual Eigen::Vector2d& AnglesForContinuousPath(Eigen::Vector2d& angles);
 };
 #endif  // INCLUDE_PATHPLANNING_HPP_
