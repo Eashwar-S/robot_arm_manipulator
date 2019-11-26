@@ -38,6 +38,7 @@
 #ifndef INCLUDE_PATHPLANNINGMOCK_HPP_
 #define INCLUDE_PATHPLANNINGMOCK_HPP_
 
+#include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <Eigen/Dense>
 #include <iostream>

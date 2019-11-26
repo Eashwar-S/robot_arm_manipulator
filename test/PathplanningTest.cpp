@@ -41,7 +41,6 @@
 #include <gtest/gtest.h>
 #include <iostream>
 #include "Pathplanning.hpp"
-
 /**
  *@brief Unit Test for testing AnglesForLinearPath method
  *

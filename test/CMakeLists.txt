@@ -23,6 +23,6 @@ target_include_directories(cpp-test PUBLIC ../vendor/googletest/googletest/inclu
                                            /usr/include/eigen3
                                             ${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS}
 )
-target_link_libraries(cpp-test PUBLIC gtest 
+target_link_libraries(cpp-test PUBLIC gtest gmock 
                                       ${OPENGL_LIBRARIES} ${GLUT_LIBRARY}
 )

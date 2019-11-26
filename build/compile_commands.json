@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/app",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/shell-app.dir/main.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/app/main.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/app/main.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/app",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/shell-app.dir/Pathplanning.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/app/Pathplanning.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/app/Pathplanning.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/app",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/shell-app.dir/Robot.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/app/Robot.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/app/Robot.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/app",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/shell-app.dir/Robotsimulator.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/app/Robotsimulator.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/app/Robotsimulator.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/main.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/test/main.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/test/main.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/PathplanningTest.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/test/PathplanningTest.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/test/PathplanningTest.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/RobotTest.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/test/RobotTest.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/test/RobotTest.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/RobotsimulatorTest.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/test/RobotsimulatorTest.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/test/RobotsimulatorTest.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/MockRobotsimulatorTest.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/test/MockRobotsimulatorTest.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/test/MockRobotsimulatorTest.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/__/app/Pathplanning.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/app/Pathplanning.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/app/Pathplanning.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/__/app/Robot.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/app/Robot.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/app/Robot.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/test",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/test/../vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include  -Wall -Wextra -Wpedantic -g   -std=gnu++14 -o CMakeFiles/cpp-test.dir/__/app/Robotsimulator.cpp.o -c /home/eashwar/Desktop/robot_arm_manipulator/app/Robotsimulator.cpp",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/app/Robotsimulator.cpp"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/vendor/googletest/googlemock",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest  -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/vendor/googletest/googlemock",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest  -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/vendor/googletest/googlemock",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest  -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/vendor/googletest/googlemock",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest  -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/vendor/googletest/googlemock",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest  -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/vendor/googletest/googlemock/gtest",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest  -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/eashwar/Desktop/robot_arm_manipulator/build/vendor/googletest/googlemock/gtest",
+  "command": "/usr/bin/c++    -I/usr/include/eigen3 -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/include -I/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest  -Wall -Wextra -Wpedantic -g   -Wall -Wextra -Wpedantic -g -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/eashwar/Desktop/robot_arm_manipulator/vendor/googletest/googletest/src/gtest_main.cc"
+}
+]

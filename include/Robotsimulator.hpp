@@ -46,7 +46,6 @@
 #include "Pathplanning.hpp"
 #include "Robot.hpp"
 
-
 #define PI 3.1415926
 
 /**
@@ -174,15 +173,15 @@ class Robotsimulator {
   static int drawPathCircle(void);
 
   /**
-     * @brief method to draw Target point
-     *
-     * @param x - X coordinate of target point
-     *
-     * @param y - Y coordinate of target point
-     *
-     * @return returns 1 to indicate success
-     *
-     */
+   * @brief method to draw Target point
+   *
+   * @param x - X coordinate of target point
+   *
+   * @param y - Y coordinate of target point
+   *
+   * @return returns 1 to indicate success
+   *
+   */
 
   static int drawTarget(float x, float y);
 

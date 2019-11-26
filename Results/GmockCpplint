@@ -3,15 +3,11 @@ $ cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "
 
 Output:
 Done processing ./include/PathplanningMock.hpp
-./include/Pathplanning.hpp:68:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
-./include/Pathplanning.hpp:80:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
-./include/Pathplanning.hpp:90:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
+./include/Pathplanning.hpp:94:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
+./include/Pathplanning.hpp:106:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
+./include/Pathplanning.hpp:116:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
 Done processing ./include/Pathplanning.hpp
 Done processing ./include/Robotsimulator.hpp
-./include/IPathplanning.hpp:84:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
-./include/IPathplanning.hpp:96:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
-./include/IPathplanning.hpp:106:  Is this a non-const reference? If so, make const or use a pointer: Eigen::Vector2d& angles  [runtime/references] [2]
-Done processing ./include/IPathplanning.hpp
 Done processing ./include/Robot.hpp
 Done processing ./app/Robotsimulator.cpp
 Done processing ./app/Pathplanning.cpp
@@ -22,7 +18,8 @@ Done processing ./test/MockRobotsimulatorTest.cpp
 Done processing ./test/RobotsimulatorTest.cpp
 Done processing ./test/RobotTest.cpp
 Done processing ./test/main.cpp
-Total errors found: 6
+Total errors found: 3
+
 
 Ignored second level errors.
 

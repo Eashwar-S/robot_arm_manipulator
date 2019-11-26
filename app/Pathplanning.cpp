@@ -41,7 +41,7 @@
 
 #include "Pathplanning.hpp"
 
-Pathplanning::Pathplanning(){}
+Pathplanning::Pathplanning() {}
 Eigen::Vector2d& Pathplanning::AnglesForLinearPath(Eigen::Vector2d& angles,
                                                    Eigen::Vector2d path) {
   Eigen::MatrixXd jacobianInv(2, 2);
@@ -92,4 +92,4 @@ Eigen::Vector2d& Pathplanning::AnglesForContinuousPath(
   angles[1] += 1;
   return angles;
 }
-Pathplanning::~Pathplanning(){}
+Pathplanning::~Pathplanning() {}
